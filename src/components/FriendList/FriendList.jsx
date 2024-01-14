@@ -1,4 +1,4 @@
-import { SectionTitle } from '../../SectionTitle/SectionTitle';
+import { SectionTitle } from '../SectionTitle/SectionTitle';
 import { FriendListItem } from '../FriendListItem/FriendListItem';
 import css from './FriendList.module.css';
 

@@ -1,4 +1,4 @@
-import { SectionTitle } from '../../SectionTitle/SectionTitle';
+import { SectionTitle } from '../SectionTitle/SectionTitle';
 import css from './TransactionHistory.module.css';
 
 export const TransactionHistory = ({ items }) => {
