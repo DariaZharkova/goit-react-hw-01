@@ -7,24 +7,32 @@
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+.trHead {
+  background-color: rgba(171, 68, 147, 0.392);
+  border-bottom: 1px solid rgb(60, 25, 52);
+}
+
 .th {
   height: 50px;
   text-align: center;
-  background-color: rgba(171, 68, 147, 0.392);
-  border-bottom: 1px solid rgb(60, 25, 52);
   font-size: 18px;
   font-weight: 500;
 }
 
-.tr:not(:last-child) {
+.trBody {
+  transition: background-color 250ms ease-in-out;
+}
+
+.trBody:not(:last-child) {
   border-bottom: 1px solid rgb(60, 25, 52);
 }
 
-.tr:nth-of-type(even) {
+.trBody:nth-of-type(even) {
   background-color: #fff;
 }
 
-.tr:hover {
+.trBody:hover {
   cursor: pointer;
   background-color: rgba(60, 25, 52, 0.3);
 }
